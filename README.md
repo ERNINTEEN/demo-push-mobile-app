@@ -20,10 +20,9 @@ Steps:
 - Firebase Project Setup
     - Android
         - create a firebase android app [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup)
-        - include the Google Services configuration file in your Android app:
-        - Get `google-services.json` file and place inside `android/app` folder
+        - download the `google-services.json` file from the Firebase Console and place it in the `android/app` directory of your project
         - run the app `yarn android`
     - Ios
         - create a firebase ios app [https://firebase.google.com/docs/ios/setup](https://firebase.google.com/docs/ios/setup)
-        - download the `GoogleService-Info.plist` from the Firebase Console and place it in the `ios` directory of your project.
+        - download the `GoogleService-Info.plist` from the Firebase Console and place it in the `ios` directory of your project
         - run the app `yarn ios`
